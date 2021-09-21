@@ -1,0 +1,241 @@
+body {
+  background-color: #e5e5e5;
+}
+.container {
+  width: 1438px;
+  height: 1112px;
+  margin: 0 auto;
+}
+.news {
+  display: flex;
+}
+.main-news {
+  width: 1029px;
+}
+.main-news__header {
+  margin-left: 4rem;
+
+  margin-top: 1.5rem;
+}
+.main-news__header-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+  width: 336px;
+  height: 47px;
+}
+
+.timeline-news {
+  width: 402px;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.timeline-news__header {
+  margin-left: 5rem;
+}
+.timeline-news__header-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+  margin-left: -22px;
+}
+.main-large__content {
+  display: flex;
+  margin-left: 3.3rem;
+  margin-top: 0.5rem;
+}
+.main-large__first-block {
+  background-color: #303f86cc;
+  width: 533px;
+  height: 311px;
+  margin-left: -1rem;
+  margin-right: 1rem;
+}
+.heading-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 1.7rem;
+  margin-left: 1.5rem;
+}
+.content-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-top: 2.2rem;
+  margin-left: 1.6rem;
+}
+.main-large__photo {
+  width: 441px;
+  height: 311px;
+}
+.main-large__photo:hover {
+  transform: scale(1.04);
+  transition: 1s;
+}
+
+.large-block__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-left: 1.7rem;
+  margin-top: 0.5em;
+}
+
+.large-block__footer-click {
+  width: 88px;
+  height: 29px;
+  background: rgba(243, 243, 243, 0.5);
+  margin-right: 16px;
+}
+.large-block__footer-click:hover {
+  background-color: rgb(194, 195, 206);
+  cursor: pointer;
+}
+.main-small__content {
+  display: flex;
+  margin-left: 2.3rem;
+}
+.main-small_content__news {
+  width: 319px;
+  height: 204px;
+  margin-right: 1rem;
+}
+.main-small_content__text-container {
+  height: 230px;
+}
+.main-small_content__img:hover {
+  transform: scale(1.04);
+  transition: 1s;
+}
+.small-btn {
+  width: 121px;
+  height: 29px;
+  background: rgba(48, 63, 134, 0.5);
+  margin-top: -4px;
+}
+.small-btn:hover {
+  cursor: pointer;
+  background-color: rgb(161, 161, 161);
+}
+
+.small-heading-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin-top: 1.4rem;
+  margin-left: 1.1rem;
+}
+.small-content__text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 1rem;
+  margin-top: 0.85rem;
+}
+.small-footer {
+  display: flex;
+  margin-left: 1rem;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+.timeline-news__content {
+  background-color: rgba(48, 63, 134, 0.2);
+  margin-top: 1rem;
+  height: 443px;
+}
+.content-item__content {
+  display: flex;
+  margin-left: 4.1rem;
+}
+.content-item__heading {
+  margin-left: 4.2rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.timeline-btn {
+  margin-left: 4.5rem;
+  width: 124px;
+  height: 29px;
+  background: rgba(243, 243, 243, 0.5);
+  border: none;
+}
+.timeline-btn:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+.timeline-date {
+  color: #00000080;
+}
+.btn-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.timeline-news__content-item {
+  padding-top: 1rem;
+}
+.timeline-footer {
+  display: flex;
+  margin-top: 1.7rem;
+  margin-left: 4.2rem;
+}
+.timeline-all__news {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.timeline-arrow {
+  margin-left: 2rem;
+}
+.timeline-arrow:hover {
+  color: rgb(15, 15, 15);
+  cursor: pointer;
+}
+.item-link {
+  text-decoration: none;
+}
+.item-link:hover {
+  color: #994848;
+}
+.timeline-list {
+  margin-left: 7.5rem;
+  margin-top: 3.4rem;
+}
+.list-item {
+  margin-top: 0.63rem;
+}
